@@ -2,7 +2,7 @@ from flask import Flask, request
 import requests
 app = Flask(__name__)
 
-@app.route("/api/")
+@app.route("/")
 def home():
     
     url = request.args.get("url")
