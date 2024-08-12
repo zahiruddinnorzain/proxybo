@@ -1,0 +1,3 @@
+source env/bin/activate
+
+http://localhost:8000/?url=
