@@ -6,14 +6,11 @@
     "routes": [
         {
             "src": "/(.*)",
-            "headers": [
+            "headers":
                 {
-                    "Access-Control-Allow-Origin": "*",
-                    "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
-                    "Access-Control-Allow-Headers": "Content-Type, Authorization"
-                }
-            ],
-            "dest": "app.py"
+                    "Access-Control-Allow-Origin": "*"
+                },
+            "dest": "/app.py"
         }
     ]
 }
